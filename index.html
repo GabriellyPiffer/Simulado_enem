@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulado ENEM</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.453.0/dist/umd/lucide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="layout">
+  <nav class="sidebar" aria-label="Menu principal">
+    <div class="logo"><span class="mark"><i data-lucide="graduation-cap"></i></span>Simulado ENEM</div>
+    <a class="nav" href="#/" data-r="/"><i data-lucide="home"></i>Início</a>
+    <a class="nav" href="#/questoes" data-r="/questoes"><i data-lucide="help-circle"></i>Questões</a>
+    <a class="nav" href="#/simulados" data-r="/simulados"><i data-lucide="clipboard-list"></i>Simulados</a>
+    <a class="nav" href="#/disciplinas" data-r="/disciplinas"><i data-lucide="layers"></i>Disciplinas</a>
+    <a class="nav" href="#/provas" data-r="/provas"><i data-lucide="history"></i>Provas anteriores</a>
+    <a class="nav" href="#/desempenho" data-r="/desempenho"><i data-lucide="bar-chart-3"></i>Meu desempenho</a>
+    <div class="spacer"></div>
+    <a class="nav" href="#/configuracoes" data-r="/configuracoes"><i data-lucide="settings"></i>Configurações</a>
+  </nav>
+  <main class="main" id="app"></main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
